@@ -1,0 +1,12 @@
+body {
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.btn-primary, .btn-info, .btn-success {
+    margin-right: 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div class="container">
+    <h2>Product Listing</h2>
+
+    <!-- Add New Product Button -->
+    <div class="mb-3">
+        <a href="/admin_add_product" class="btn btn-success">Add New Product</a>
+    </div>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Stock Quantity</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Product A</td>
+            <td>Description of Product A</td>
+            <td>$10.00</td>
+            <td>100</td>
+            <td>
+                <a href="/product_detail" class="btn btn-info btn-sm">View Details</a>
+                <!-- Add button for admin to edit or delete product -->
+                <button class="btn btn-warning btn-sm">Edit</button>
+                <button class="btn btn-danger btn-sm">Delete</button>
+            </td>
+        </tr>
+        <!-- Additional rows for other products -->
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
